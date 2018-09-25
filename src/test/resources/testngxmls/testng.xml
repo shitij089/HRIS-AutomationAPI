@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="HRIS TIME POLICY TESTS" parallel="tests"
+	thread-count="1">
+
+	<test name="Account" parallel="false">
+
+		<packages>
+			<package name="com.qait.tests.AccountDept"></package>
+		</packages>
+	</test>
+	<test name="Admin" parallel="false">
+		<packages>
+			<package name="com.qait.tests.AdminDept"></package>
+		</packages>
+	</test>
+
+	<test name="CDL" parallel="false">
+		<packages>
+			<package name="com.qait.tests.CDLDept"></package>
+		</packages>
+	</test>
+
+	<test name="SE" parallel="false">
+		<packages>
+			<package name="com.qait.tests.SEDept"></package>
+		</packages>
+	</test>
+
+	<test name="IT" parallel="false">
+		<packages>
+			<package name="com.qait.tests.ItDept"></package>
+		</packages>
+	</test>
+
+	<test name="STT" parallel="false">
+		<packages>
+			<package name="com.qait.tests.SttDept"></package>
+		</packages>
+	</test>
+
+	<test name="SOC" parallel="false">
+		<packages>
+			<package name="com.qait.tests.SOCDept"></package>
+		</packages>
+	</test>
+
+	<!-- <test name="Invalid Hours" parallel="false"> <packages> <package name="com.qait.tests.InvalidHours"></package> 
+		</packages> </test> -->
+
+</suite>
+
+

@@ -1,0 +1,23 @@
+Page Title: HRIS | Resource Management Page
+
+#Object Definitions
+====================================================================================
+closeModalDialog                xpath                   //button[contains(.,'Close')]
+myProjectstab                   id                      billing
+searchProject                   id                      mainSearch
+searchEngineers                 id                      searchTxt
+projectLink                     css                     .proCursorCls 
+searchResource                  id                      empNameSearchEmp
+empSearchResult                 xpath                   //a[contains(.,'${empID}')]
+submitBtn                       id                      submitBtnEmp
+updateBilling                   css                     .dollar-cls
+toggleCheckBox                  css                     .chkAll
+allEmployeesCheckBox            xpath                   //input[contains(@class,'chkChild')]
+latestEmployeeCheckBox          xpath                   (//input[contains(@class,'chkChild')])[${index}]
+selectDate                      xpath                   //p[contains(@id,'${date}')]
+additionalHourTxt               id                      hourVal_3
+comment                         id                      comment
+saveAHBtn                       css                     .saveBillCls
+txt_footer                      css                     #push>span>b
+img_hrisLogo                    xpath                   //a[@class='navbar-brand']/img
+reporting_heading		xpath			//div[@class='row']/h4[contains(text(),'Reporting')]

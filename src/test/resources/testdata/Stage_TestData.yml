@@ -1,0 +1,283 @@
+﻿baseurl: http://s-hris.qait.com/old/login.php
+HRISReleaseUrl: http://s-hris.qait.com/qaithris/archives.php#tabs-2
+databaseUrl: "http://10.0.1.118/phpmyadmin/index.php?server=1&target=main.php&token=16338d70e11d6dfd82b9dd49c8868f77"
+
+myProjectUnderRMSUrl: http://s-hris.qait.com:8084/user/assignMeProject
+srManagerUnderRMSUrl: http://s-hris.qait.com:8084/manager/assignManager
+rmsUrl: "http://s-hris.qait.com:8084/report/dashboard"
+project_search: Harvard
+project_id_search: 2699
+project_manager_search: Arnab
+username: minesh 
+password: qainfotech
+search_emp: 3989
+emp_name: Anurag Garg
+databaseUserName: root
+databasePassword: "{$Root@Qai-123"
+
+manager:
+    username: karandeep
+    password: qainfotech
+ESS_user: Stt 504140
+ESS_username: Stt504140
+ESS_password: 504140
+
+Trainee_shortName: Sugandha
+Trainee_EmpId: 8566
+
+title: 
+     loginPage: HRIS Login
+     homePage: QAIT HRIS
+     rmsPage: QAIT Resource Management Tool
+     reportABug: Bugzilla Main Page
+     accessPayroll: Employee Self Service
+     HRISRelease: QAIT HRIS:Archives
+copyright: QAITHRIS Â© QA InfoTech Pvt. Ltd. 2016 rights reserved.
+dailyMsg: Thought of the day
+celebrationMsg: No Birthday/Anniversary Today" under heading "Celebrations
+
+# Value to search on PIM page
+
+
+searchvalue: "952664"
+
+
+
+# Employ Id for Full Time Permanent Employ
+empid: "0112"
+
+#Employee ID for Software Testing Trainee Full Time Internship
+trainee:
+    empId: "270716"
+    name: "Rahul Tomar"
+    
+engineer:
+    partTimePermanent:
+        empId: "290716"
+        name:  "Rahul Rawat" 
+    fullTimePermanent:
+        empId: "300716"
+        name:  "Rahul Rewadi"
+supervisor:
+    empId: "1045"
+    name:  "Gautam Gupta"
+    username: "gautam"
+    password: "qainfotech"
+    projectID: "2754"
+    
+restrictedLeave: 
+      empName: "Shivam Tiwari" 
+      empId: 3940
+      username: "shivamtiwari1"
+      password: "qainfotech"    
+         
+testGurukulUser:
+    empID: "7014"
+    lastName: "Last"
+    firstName: "First"  
+    jobTitle: "Software Testing Trainee"
+    employmentStatus: "Full Time Internship"
+    subDivision: "Software Testing Division"
+    location: "A-8, Sector-68, Noida"
+    
+fullTimePermanentUser:
+    #empID: "4042"  #For Female Employee
+    empID: "4041"
+    lastName: "Permanent"
+    firstName: "FullTime"  
+    jobTitle: "Software Testing Engineer"
+    employmentStatus: "Full Time Permanent"
+    subDivision: "Software Testing Division"
+    location: "A-8, Sector-68, Noida"
+    #gender: "female"
+    gender: "male"
+    femaleGender: "female"
+    password: "qainfotech"
+    
+MonthBefore: "2"
+MonthAfter: "-1"
+WeekNo1: "3"
+WeekNo2: "4"    
+    
+Punches: 
+    zeroHour: 
+         inTime: ""
+         outTime: ""
+    twoHour: 
+         inTime: "09:00:00"
+         outTime: "11:00:00"  
+    threeHour: 
+         inTime: "09:00:00"
+         outTime: "12:00:00"     
+    fourHour: 
+         inTime: "09:00:00"
+         outTime: "13:00:00"
+    fourHourPlus: 
+         inTime: "09:00:00"
+         outTime: "13:30:00"
+    fiveHour: 
+         inTime: "09:00:00"
+         outTime: "14:00:00"
+    fiveHourPlus: 
+         inTime: "09:00:00"
+         outTime: "14:30:00"
+    sixHour: 
+         inTime: "09:00:00"
+         outTime: "15:00:00"
+    sixHourPlus: 
+         inTime: "09:00:00"
+         outTime: "15:30:00"    
+    sevenHour: 
+         inTime: "09:00:00"
+         outTime: "16:00:00"              
+    sevenHourPlus: 
+         inTime: "09:00:00"
+         outTime: "16:30:00"
+    eightHour: 
+         inTime: "09:00:00"
+         outTime: "17:00:00"    
+    eightHourPlus: 
+         inTime: "09:00:00"
+         outTime: "17:30:00" 
+    eightHour24Minute: 
+         inTime: "09:00:00"
+         outTime: "17:24:00" 
+    invalideightHour:
+         inTime: "13:00:00"
+         outTime: "21:00:00"
+    nineHour: 
+         inTime: "09:00:00"
+         outTime: "18:00:00"
+    nineHourPlus: 
+         inTime: "09:00:00"
+         outTime: "18:30:00"     
+    tenHour: 
+         inTime: "09:30:00"
+         outTime: "19:30:00"
+    invalidtenHour: 
+         inTime: "07:30:00"
+         outTime: "17:30:00" 
+    
+AccountsExecutive: 
+    jobTitle: "Accounts Executive"
+    employmentStatus: "Full Time Permanent"
+    subDivision: " Accounts Division"
+    location: "A-8, Sector-68, Noida"
+    gender: "male"
+    femaleGender: "female"
+    password: "qainfotech"
+    
+AdminExecutive:  
+    jobTitle: "Administration Executive"
+    employmentStatus: "Full Time Permanent"
+    subDivision: " Administration Division"
+    location: "A-8, Sector-68, Noida"
+    #gender: "female"
+    gender: "male"
+    password: "qainfotech"  
+    division: Administration Division  
+    
+CDLExecutive: 
+    jobTitle: "Engineer - Data Digitization Production I"
+    employmentStatus: "Full Time Permanent"
+    subDivision: " Content Digitization Team"
+    location: "A-8, Sector-68, Noida"
+    gender: "male"
+    femaleGender: "female"
+    password: "qainfotech"    
+        
+STTExecutive: 
+    jobTitle: "Software Testing Engineer"
+    employmentStatus: "Full Time Permanent"
+    subDivision: " Software Testing Division"
+    location: "A-8, Sector-68, Noida"
+    #gender: "female"
+    gender: "male"
+    password: "qainfotech"
+    
+    
+SEExecutive:  
+    jobTitle: "Software Testing Engineer"
+    employmentStatus: "Full Time Permanent"
+    subDivision: " Software Testing Division"
+    location: "A-8, Sector-68, Noida"
+    #gender: "female"
+    gender: "male"
+    password: "qainfotech"
+        
+ITExecutive:  
+    jobTitle: "IT Support Assistant"
+    employmentStatus: "Full Time Permanent"
+    subDivision: " IT Support  Division"
+    location: "A-8, Sector-68, Noida"
+    #gender: "female"
+    gender: "male"
+    password: "qainfotech"    
+    
+SOCExecutive:
+    jobTitle: "SOC Executive"
+    employmentStatus: "Full Time Permanent"
+    subDivision: " SOC Division Team"
+    location: "A-8, Sector-68, Noida"
+    #gender: "female"
+    gender: "male"
+    password: "qainfotech"
+    division: "SOC Division Team"
+InternshipExecutive: 
+    jobTitle: "Software Trainee"
+    employmentStatus: "Part Time Internship"
+    subDivision: " Automation Team"
+    location: "A-8, Sector-68, Noida"
+    gender: "male"
+    femaleGender: "female"
+    password: "qainfotech"
+  
+startPunchesdate: "2016-06-03"    
+    
+migratedUser:
+    empID: "30"
+    jobTitle: "Software Testing Engineer"
+    employmentStatus: "Part Time Permanent"
+
+credential: 
+   AccountDeptUname: "Account605973"
+   AccountDeptPass: "605973" 
+   AdminDeptUname: "Admin836679" 
+   AdminDeptPass: "836679"  
+   ItDeptUname: "It030516"
+   ItDeptPass: "030516"
+   SocDeptUname: "Soc282773"
+   SocDeptPass: "282773"
+   SttDeptUname: "Stt504140"
+   SttDeptPass: "504140"
+   CdlDeptUname: "CDL928287"
+   CdlDeptPass: "928287"
+   SEDeptUname: "FullTime307346"
+   SEDeptPass: "307346"
+   SEDeptFullName: "FullTime 307346"
+
+
+
+msg:
+   fullDayLWP: "You worked less than 5 hours! That qualifies for Full Day LWP." 
+   noPunch: LWP, due to no punch in/out information and no leave applied. 
+   halfDay: Half Day LWP marked because you worked less than 6 hours
+   lessWeekHours: System marked half LWP since working hours less than required week hours.
+   invalidDatePtoMsg: Selected leave type falls under planned leaves, thus this leave can only be applied for future dates.(at least one day prior)
+   invalidWFHMsg: You can not apply Leave because you are trying to exceed maximum number of WFH.
+   footerText1: QAITHRIS © QA InfoTech Inc.2016 All rights reserved.
+   footerText2: "App version: 3476 DB version: 2.6.8"
+   RHInPreviousDate: "RH Date for Birthday/Anniversary Should not be in past"
+   appliedRH: "Approved RH Request" 
+   halfDayForAdmin: System marked half LWP since working hours less than required week hours
+   
+   
+email:
+  send: true
+  recepients:
+     recepient1: shivamtiwari1@qainfotech.com
+     recepient2: sharadjoshi@qainfotech.com
+     recepient3: anandchauhan@qainfotech.com
+     recepient4: minesh@qainfotech.com
+     recepient5: oindrilladas@qainfotech.com
+    

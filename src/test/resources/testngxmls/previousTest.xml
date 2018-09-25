@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="HRIS TIME POLICY TESTS" parallel="tests"
+	thread-count="3">
+	<!-- <test name="Advance Test" preserve-order="true"> <classes> <class name="com.qait.tests.Bsurveys" 
+		/> </classes> </test> -->
+
+	<test name="Previous Automated Tests" thread-count="1" parallel="true">
+		<classes>
+
+			<class name="com.qait.tests.SEDept.HRIS_30" />
+			<class name="com.qait.tests.SEDept.HRIS_31" />
+			<class name="com.qait.tests.SEDept.HRIS_50" />
+			<class name="com.qait.tests.SEDept.HRIS_51" />
+			<class
+				name="com.qait.tests.SEDept.HRIS_TC_64_VerifySystemAddBOOTOHoursInTotalWorkHoursOfAWeek" />
+			<class
+				name="com.qait.tests.SEDept.VerifyNoSandwitchBetweenAppliedChildCareLeaves" />
+			<class
+				name="com.qait.tests.SEDept.VerifyThatPOOTOHoursNotCountAsWorkingHours" />
+
+		</classes>
+	</test>
+
+
+
+
+
+
+
+
+
+
+
+</suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="Test" parallel="tests" thread-count="1">
+     <test name="carryForwardSickLeaveOnEmployeeMigration" preserve-order="true">
+        <classes>
+            <!--<class name="com.qait.tests.HRISTest_01" />  -->
+            <class name="com.qait.tests.HRIS_TC_87_CreateNewUserProfileForTestGurukulTraineeTest" /> 
+            <class name="com.qait.tests.HRIS_TC_06_VerifySickLeaveCarryForwardWhenTraineeMigratesToPartTimePermanentTest" /> 
+            
+        </classes>
+    </test>
+</suite>

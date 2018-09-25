@@ -1,0 +1,38 @@
+Page Title: HRIS | Admin
+
+#Object Definitions
+====================================================================================
+rollMenuLink                        xpath           //a[@class='rollmenu' and contains(.,'${link}')]
+iframe                              xpath           //iframe
+users                               id              users
+userNameText                        css             input[name='txtUserName']
+selectEmployee                      xpath           //input[contains(@onclick,'popEmpList')]
+searchbydrpdwn		                xpath		    //select[@name='loc_code']
+serachfortextbox	                css			    .dataField
+searchButton		                xpath		    //input[@name='btnSearch']
+searchresultlink	                xpath	    	//form[@name='standardView']/p[2]/table[4]/tbody/tr[3]/td[2]/a
+chkIntMail                          id              chkIntMail
+chkPassMail                         id              chkPassMail
+saveBtn                             xpath           //img[contains(@onclick,'edit()')]
+editBtn                             xpath           //img[@name='Edit']
+newPswdField                        xpath           //input[@name='txtUserPassword']
+confirmPswdField                    xpath           //input[@name='txtUserConfirmPassword']
+searchfortextbox                    id              loc_name
+actionlink                          xpath           //td[@class='dataLabel']/img[@alt='${action}']
+essSearchResultsLink                xpath           //a[contains(.,'${username}')]
+link_selectTab                      xpath           .//*[contains(text(),'${tab Name}')]
+txt_fields                          xpath           //td[contains(text(),'Country')]
+txt_rostDate                        id              rostDate
+drpdwn_rostEmp                      id              rostEmp
+txt_empToAssignRoster               xpath           .//option[@value='${emp name}']
+btn_saveRoster                      xpath           //img[contains(@onclick,'saveRosters')]
+searchResult                        xpath           .//*[@id='messageDisplay']
+saveButtonForAddUser                xpath           //img[contains(@onclick,'addSave();')]
+//Delete Roster
+drpdwn_month                        id              fMonth
+btn_go                              id              go
+btn_edit                            xpath           //td[text()='${empName}']//following-sibling::td[1][text()='${date}']/..//a
+txt_empNameHavingPreWeekRoster      xpath           (//td[text()='${date}'])[1]/preceding-sibling::td[1]
+list_empNamenotHavingRosterForDate     xpath     //div[@id='detailsDiv']//tr/td[3]//following-sibling::td[1][not(contains(text(),'${date}'))]//preceding-sibling::td[1]
+txt_submitMsg                          id         msgDiv
+====================================================================================
